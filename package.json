@@ -55,4 +55,9 @@
   "babel": {
     "presets": ["@babel/preset-env", "@babel/preset-react"]
   }
+  "scripts": {
+    "test": "jest --no-color 2>output.txt",
+    "start": "webpack-dev-server --mode development --watch --open --hot",
+    "build": "webpack --mode production"
+  }
 }
